@@ -1,0 +1,208 @@
+{
+  "jsonrpc": "2.0",
+  "id": "",
+  "result": {
+    "round_state": {
+      "height": "351589",
+      "round": "0",
+      "step": 4,
+      "start_time": "2018-09-11T18:52:57.815227518Z",
+      "commit_time": "2018-09-11T18:52:57.335227518Z",
+      "validators": {
+        "validators": [
+          {
+            "address": "11B9D7F348A99451CEF459819EE82F890F771BAC",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "ok1T9nB/sjv5j/5lcCgph+dBMUCDburTcJAN2j06bWA="
+            },
+            "voting_power": "200000000",
+            "accum": "0"
+          },
+          {
+            "address": "36C516CD52849A6DBF9801D8FCA5AE1C6B2335A8",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "aezNhMaImRYm5Jx9ZgqEmGJ7ub+EKDkgLUlHe1ZcFeM="
+            },
+            "voting_power": "200000000",
+            "accum": "0"
+          },
+          {
+            "address": "7A56C9D1B341EE79E94300D38A0DC2DED00C5715",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "654JvU292wGhiAoiZxLKBcv8olM34nShpupTasu7AWk="
+            },
+            "voting_power": "200000000",
+            "accum": "0"
+          },
+          {
+            "address": "AA832863F21DA2AF84C8635ECE8BEEDE4D5CFD0D",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "GFuwq3Zw1KFnfjZI77y7lxRlXSA+QbcNLBAiWybavP0="
+            },
+            "voting_power": "200000000",
+            "accum": "0"
+          }
+        ],
+        "proposer": {
+          "address": "AA832863F21DA2AF84C8635ECE8BEEDE4D5CFD0D",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "GFuwq3Zw1KFnfjZI77y7lxRlXSA+QbcNLBAiWybavP0="
+          },
+          "voting_power": "200000000",
+          "accum": "0"
+        }
+      },
+      "proposal": null,
+      "proposal_block": null,
+      "proposal_block_parts": null,
+      "locked_round": "0",
+      "locked_block": null,
+      "locked_block_parts": null,
+      "valid_round": "0",
+      "valid_block": null,
+      "valid_block_parts": null,
+      "votes": [
+        {
+          "round": "0",
+          "prevotes": [
+            "Vote{0:11B9D7F348A9 351589/00/1(Prevote) 000000000000 /AD14C40B9BFE.../ @ 2018-09-11T18:53:45.073Z}",
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "prevotes_bit_array": "BA{4:x___} 200000000/800000000 = 0.25",
+          "precommits": [
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "precommits_bit_array": "BA{4:____} 0/800000000 = 0.00"
+        },
+        {
+          "round": "1",
+          "prevotes": [
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "prevotes_bit_array": "BA{4:____} 0/800000000 = 0.00",
+          "precommits": [
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "precommits_bit_array": "BA{4:____} 0/800000000 = 0.00"
+        }
+      ],
+      "commit_round": "-1",
+      "last_commit": {
+        "votes": [
+          "Vote{0:11B9D7F348A9 351588/01/2(Precommit) 653280DC8831 /99E16263BD77.../ @ 2018-09-11T18:51:38.533Z}",
+          "nil-Vote",
+          "Vote{2:7A56C9D1B341 351588/01/2(Precommit) 653280DC8831 /66EE6754266B.../ @ 2018-09-11T18:51:38.638Z}",
+          "Vote{3:AA832863F21D 351588/01/2(Precommit) 653280DC8831 /019737464B6F.../ @ 2018-09-11T18:51:38.677Z}"
+        ],
+        "votes_bit_array": "BA{4:x_xx} 600000000/800000000 = 0.75",
+        "peer_maj_23s": {
+          "9ddad8e882a65c29c59c8d638433d0327d221340": {
+            "hash": "653280DC8831606D9E02F0EE18A929242E174EC6",
+            "parts": {
+              "total": "32",
+              "hash": "CA1A1F260911B4F6B55D7711481FE2229725BBFD"
+            }
+          }
+        }
+      },
+      "last_validators": {
+        "validators": [
+          {
+            "address": "11B9D7F348A99451CEF459819EE82F890F771BAC",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "ok1T9nB/sjv5j/5lcCgph+dBMUCDburTcJAN2j06bWA="
+            },
+            "voting_power": "200000000",
+            "accum": "-200000000"
+          },
+          {
+            "address": "36C516CD52849A6DBF9801D8FCA5AE1C6B2335A8",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "aezNhMaImRYm5Jx9ZgqEmGJ7ub+EKDkgLUlHe1ZcFeM="
+            },
+            "voting_power": "200000000",
+            "accum": "-200000000"
+          },
+          {
+            "address": "7A56C9D1B341EE79E94300D38A0DC2DED00C5715",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "654JvU292wGhiAoiZxLKBcv8olM34nShpupTasu7AWk="
+            },
+            "voting_power": "200000000",
+            "accum": "-200000000"
+          },
+          {
+            "address": "AA832863F21DA2AF84C8635ECE8BEEDE4D5CFD0D",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "GFuwq3Zw1KFnfjZI77y7lxRlXSA+QbcNLBAiWybavP0="
+            },
+            "voting_power": "200000000",
+            "accum": "600000000"
+          }
+        ],
+        "proposer": {
+          "address": "7A56C9D1B341EE79E94300D38A0DC2DED00C5715",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "654JvU292wGhiAoiZxLKBcv8olM34nShpupTasu7AWk="
+          },
+          "voting_power": "200000000",
+          "accum": "-200000000"
+        }
+      }
+    },
+    "peers": [
+      {
+        "node_address": "9fa661821e22bc9a593f3fe4f1310a20ce33b1b4@172.31.32.6:26656",
+        "peer_state": {
+          "round_state": {
+            "height": "0",
+            "round": "-1",
+            "step": 0,
+            "start_time": "0001-01-01T00:00:00Z",
+            "proposal": false,
+            "proposal_block_parts_header": {
+              "total": "0",
+              "hash": ""
+            },
+            "proposal_block_parts": null,
+            "proposal_pol_round": "-1",
+            "proposal_pol": null,
+            "prevotes": null,
+            "precommits": null,
+            "last_commit_round": "-1",
+            "last_commit": null,
+            "catchup_commit_round": "-1",
+            "catchup_commit": null
+          },
+          "stats": {
+            "last_vote_height": "0",
+            "votes": "0",
+            "last_block_part_height": "0",
+            "block_parts": "0"
+          }
+        }
+      }
+    ]
+  }
+}
