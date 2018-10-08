@@ -1,0 +1,288 @@
+{
+  "genesis_time": "2018-09-13T16:39:30.259470716Z",
+  "chain_id": "genesis-alpha",
+  "consensus_params": {
+    "block_size_params": {
+      "max_bytes": "10048576",
+      "max_txs": "10000",
+      "max_gas": "-1"
+    },
+    "tx_size_params": {
+      "max_bytes": "10240",
+      "max_gas": "-1"
+    },
+    "block_gossip_params": {
+      "block_part_size_bytes": "65536"
+    },
+    "evidence_params": {
+      "max_age": "100000"
+    }
+  },
+  "validators": [
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "e7u7mkGquQRdwrOML4dlIIlsq1zpzhv3DL5LOe+cnok="
+      },
+      "power": "200000000",
+      "name": ""
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
+      },
+      "power": "200000000",
+      "name": ""
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
+      },
+      "power": "200000000",
+      "name": ""
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "68aF+O1sk4qKi92BWD59crdEabRCbTcdHj+jhCPE0Ic="
+      },
+      "power": "200000000",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1uf5cqcseeye54lw7h2k9n2arn332kxhwgznpcu",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "100000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1htg2q3h83zafn4vpc6kgdmgh4r42z037e2ng5m",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "25000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr12l2sdgk8deptack0tmgx05x4gwsts4mf5ttq30",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "25000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1vemg7hkp0p6hqjcu0g6dec7zmmswxgufpsx54s",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "25000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1cdqcmc8242dp0gqj20nh5gmx3fgt2xt8wlw58q",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "25000000"
+          }
+        ]
+      }
+    ],
+    "stake": {
+      "pool": {
+        "loose_tokens": "1000000000",
+        "bonded_tokens": "0",
+        "inflation_last_time": "0",
+        "inflation": "7/100",
+        "date_last_commission_reset": "0",
+        "prev_bonded_shares": "0"
+      },
+      "params": {
+        "inflation_rate_change": "13/100",
+        "inflation_max": "1/5",
+        "inflation_min": "7/100",
+        "goal_bonded": "67/100",
+        "unbonding_time": "1209600",
+        "max_validators": 100,
+        "bond_denom": "RUNE"
+      },
+      "validators": [
+        {
+          "owner": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "e7u7mkGquQRdwrOML4dlIIlsq1zpzhv3DL5LOe+cnok="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node0",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node1",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node2",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "68aF+O1sk4qKi92BWD59crdEabRCbTcdHj+jhCPE0Ic="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node3",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        }
+      ],
+      "bonds": [
+        {
+          "delegator_addr": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
+          "validator_addr": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
+          "shares": "200000000",
+          "height": "0"
+        },
+        {
+          "delegator_addr": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
+          "validator_addr": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
+          "shares": "200000000",
+          "height": "0"
+        },
+        {
+          "delegator_addr": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
+          "validator_addr": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
+          "shares": "200000000",
+          "height": "0"
+        },
+        {
+          "delegator_addr": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
+          "validator_addr": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
+          "shares": "200000000",
+          "height": "0"
+        }
+      ]
+    }
+  }
+}
