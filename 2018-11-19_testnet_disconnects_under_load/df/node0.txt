@@ -1,0 +1,7 @@
+Dateisystem    1K-Blöcke   Benutzt Verfügbar Verw% Eingehängt auf
+devtmpfs         1881496         0   1881496    0% /dev
+tmpfs            1899104         0   1899104    0% /dev/shm
+tmpfs            1899104       288   1898816    1% /run
+tmpfs            1899104         0   1899104    0% /sys/fs/cgroup
+/dev/nvme0n1p1 134205420 130005844   4199576   97% /
+tmpfs             379824         0    379824    0% /run/user/1000

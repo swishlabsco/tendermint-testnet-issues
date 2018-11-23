@@ -1,0 +1,37 @@
+{
+  "jsonrpc": "2.0",
+  "id": "",
+  "result": {
+    "node_info": {
+      "id": "54208159b54fabff2f459c5935583dfe63eb97bf",
+      "listen_addr": "172.31.23.211:26656",
+      "network": "genesis-beta-slow",
+      "version": "0.23.1",
+      "channels": "4020212223303800",
+      "moniker": "node102",
+      "other": [
+        "amino_version=0.12.0",
+        "p2p_version=0.5.0",
+        "consensus_version=v1/0.2.2",
+        "rpc_version=0.7.0/3",
+        "tx_index=on",
+        "rpc_addr=tcp://0.0.0.0:26657"
+      ]
+    },
+    "sync_info": {
+      "latest_block_hash": "1028B9CD5A56141482957AAFC3816DCAC2E8B745",
+      "latest_app_hash": "B30BCD60D123149097D6B8C1E7C6261F530F25DB",
+      "latest_block_height": "304695",
+      "latest_block_time": "2018-11-22T05:53:54.793774073Z",
+      "catching_up": false
+    },
+    "validator_info": {
+      "address": "04B0E5E163D57B0FECEBAF0208B7CA58F1657010",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "ZMY4O5ocz1TJENHVfw6U/pz7mWebNP3p5NfhN6gCrdA="
+      },
+      "voting_power": "0"
+    }
+  }
+}

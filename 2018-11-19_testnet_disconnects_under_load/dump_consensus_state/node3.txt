@@ -1,0 +1,177 @@
+{
+  "jsonrpc": "2.0",
+  "id": "",
+  "result": {
+    "round_state": {
+      "height": "2283480",
+      "round": "0",
+      "step": 4,
+      "start_time": "2018-11-17T19:30:17.683243587Z",
+      "commit_time": "2018-11-17T19:30:17.203243587Z",
+      "validators": {
+        "validators": [
+          {
+            "address": "9423A6319CA1B68FC41B509A2B1B1BEDB6008ACD",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
+            },
+            "voting_power": "200000000",
+            "accum": "-200000000"
+          },
+          {
+            "address": "A9CC5B1041F9B6A3BF5EEAE4A6F524EE8B69E1B0",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
+            },
+            "voting_power": "200000000",
+            "accum": "-200000000"
+          },
+          {
+            "address": "BAA2D69B4F311F686424305198181D9E2AC04856",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "e7u7mkGquQRdwrOML4dlIIlsq1zpzhv3DL5LOe+cnok="
+            },
+            "voting_power": "200000000",
+            "accum": "400000000"
+          }
+        ],
+        "proposer": {
+          "address": "A9CC5B1041F9B6A3BF5EEAE4A6F524EE8B69E1B0",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
+          },
+          "voting_power": "200000000",
+          "accum": "-200000000"
+        }
+      },
+      "proposal": null,
+      "proposal_block": null,
+      "proposal_block_parts": null,
+      "locked_round": "0",
+      "locked_block": null,
+      "locked_block_parts": null,
+      "valid_round": "0",
+      "valid_block": null,
+      "valid_block_parts": null,
+      "votes": [
+        {
+          "round": "0",
+          "prevotes": [
+            "Vote{0:9423A6319CA1 2283480/00/1(Prevote) 000000000000 /249762FDA561.../ @ 2018-11-17T19:30:18.576Z}",
+            "nil-Vote",
+            "Vote{2:BAA2D69B4F31 2283480/00/1(Prevote) 000000000000 /F94087B44A1B.../ @ 2018-11-17T19:30:18.684Z}"
+          ],
+          "prevotes_bit_array": "BA{3:x_x} 400000000/600000000 = 0.67",
+          "precommits": [
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "precommits_bit_array": "BA{3:___} 0/600000000 = 0.00"
+        },
+        {
+          "round": "1",
+          "prevotes": [
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "prevotes_bit_array": "BA{3:___} 0/600000000 = 0.00",
+          "precommits": [
+            "nil-Vote",
+            "nil-Vote",
+            "nil-Vote"
+          ],
+          "precommits_bit_array": "BA{3:___} 0/600000000 = 0.00"
+        }
+      ],
+      "commit_round": "-1",
+      "last_commit": {
+        "votes": [
+          "Vote{0:9423A6319CA1 2283479/00/2(Precommit) F1487612CAF5 /2DF2387882D8.../ @ 2018-11-17T19:30:16.990Z}",
+          "Vote{1:A9CC5B1041F9 2283479/00/2(Precommit) F1487612CAF5 /D1A22B792DD1.../ @ 2018-11-17T19:30:16.974Z}",
+          "Vote{2:BAA2D69B4F31 2283479/00/2(Precommit) F1487612CAF5 /6DE4D31F60E2.../ @ 2018-11-17T19:30:16.989Z}"
+        ],
+        "votes_bit_array": "BA{3:xxx} 600000000/600000000 = 1.00",
+        "peer_maj_23s": {}
+      },
+      "last_validators": {
+        "validators": [
+          {
+            "address": "9423A6319CA1B68FC41B509A2B1B1BEDB6008ACD",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
+            },
+            "voting_power": "200000000",
+            "accum": "-400000000"
+          },
+          {
+            "address": "A9CC5B1041F9B6A3BF5EEAE4A6F524EE8B69E1B0",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
+            },
+            "voting_power": "200000000",
+            "accum": "200000000"
+          },
+          {
+            "address": "BAA2D69B4F311F686424305198181D9E2AC04856",
+            "pub_key": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "e7u7mkGquQRdwrOML4dlIIlsq1zpzhv3DL5LOe+cnok="
+            },
+            "voting_power": "200000000",
+            "accum": "200000000"
+          }
+        ],
+        "proposer": {
+          "address": "9423A6319CA1B68FC41B509A2B1B1BEDB6008ACD",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
+          },
+          "voting_power": "200000000",
+          "accum": "-400000000"
+        }
+      }
+    },
+    "peers": [
+      {
+        "node_address": "ac2189d75ffb9d1bd2d4968a724dd12b204eef90@172.31.12.75:26656",
+        "peer_state": {
+          "round_state": {
+            "height": "2283480",
+            "round": "0",
+            "step": 4,
+            "start_time": "2018-11-17T19:30:17.695968944Z",
+            "proposal": false,
+            "proposal_block_parts_header": {
+              "total": "0",
+              "hash": ""
+            },
+            "proposal_block_parts": null,
+            "proposal_pol_round": "-1",
+            "proposal_pol": "___",
+            "prevotes": "x_x",
+            "precommits": "___",
+            "last_commit_round": "0",
+            "last_commit": "xxx",
+            "catchup_commit_round": "-1",
+            "catchup_commit": "___"
+          },
+          "stats": {
+            "last_vote_height": "2283480",
+            "votes": "1879934",
+            "last_block_part_height": "2283479",
+            "block_parts": "1517462"
+          }
+        }
+      }
+    ]
+  }
+}

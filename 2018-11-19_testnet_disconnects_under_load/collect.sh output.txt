@@ -1,0 +1,46 @@
+Loading status of node0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1075  100  1075    0     0   3572      0 --:--:-- --:--:-- --:--:--  3583
+Loading status of node1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to 52.15.174.195 port 26657: Connection refused
+Loading status of node2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to 18.222.75.1 port 26657: Connection refused
+Loading status of node3
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1068  100  1068    0     0    794      0  0:00:01  0:00:01 --:--:--   794
+Loading dump_consensus_state of node0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5793    0  5793    0     0   4439      0 --:--:--  0:00:01 --:--:--  4442
+Loading dump_consensus_state of node1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to 52.15.174.195 port 26657: Connection refused
+Loading dump_consensus_state of node2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to 18.222.75.1 port 26657: Connection refused
+Loading dump_consensus_state of node3
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5793    0  5793    0     0  20483      0 --:--:-- --:--:-- --:--:-- 20542
+Extracting logs of node0
+Extracting logs of node1
+Journal file /var/log/journal/5083d4a267a54ef59af3c366f413668f/user-1001.journal is truncated, ignoring file.
+Extracting logs of node2
+Extracting logs of node3
+Loading logs of node0
+log.txt                                                                                                                                                                                                       90% 1029MB   4.9KB/s - stalled -packet_write_wait: Connection to 18.223.204.76 port 22: Broken pipe
+lost connection
+Loading logs of node1
+ssh: connect to host 52.15.174.195 port 22: Operation timed out
+Loading logs of node2
+log.txt                                                                                                                                                                                                      100%  333MB 631.9KB/s   08:59
+Loading logs of node3
+log.txt
