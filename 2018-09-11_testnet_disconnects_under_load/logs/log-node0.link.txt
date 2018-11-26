@@ -1,1 +1,0 @@
-https://s3.us-east-2.amazonaws.com/tendermint-testnet-issues/log-node0.txt
