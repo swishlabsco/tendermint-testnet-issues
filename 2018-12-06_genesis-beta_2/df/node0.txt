@@ -1,0 +1,7 @@
+Dateisystem    Größe Benutzt Verf. Verw% Eingehängt auf
+/dev/xvda1      1,0T     14G 1011G    2% /
+devtmpfs        3,9G       0  3,9G    0% /dev
+tmpfs           3,7G       0  3,7G    0% /dev/shm
+tmpfs           3,7G    232K  3,7G    1% /run
+tmpfs           3,7G       0  3,7G    0% /sys/fs/cgroup
+tmpfs           757M       0  757M    0% /run/user/1000

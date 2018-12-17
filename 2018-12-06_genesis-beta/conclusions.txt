@@ -1,0 +1,3 @@
+Unclear, since logs do not contain errors.
+
+Connection was lost at some point.

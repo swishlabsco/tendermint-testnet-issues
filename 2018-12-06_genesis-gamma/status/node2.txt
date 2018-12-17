@@ -1,0 +1,37 @@
+{
+  "jsonrpc": "2.0",
+  "id": "",
+  "result": {
+    "node_info": {
+      "id": "96823bb9a5d055906d16d482040e94a1e80c13f4",
+      "listen_addr": "172.31.41.106:26656",
+      "network": "genesis-gamma",
+      "version": "0.23.1",
+      "channels": "4020212223303800",
+      "moniker": "node103",
+      "other": [
+        "amino_version=0.12.0",
+        "p2p_version=0.5.0",
+        "consensus_version=v1/0.2.2",
+        "rpc_version=0.7.0/3",
+        "tx_index=on",
+        "rpc_addr=tcp://0.0.0.0:26657"
+      ]
+    },
+    "sync_info": {
+      "latest_block_hash": "C2E9A3645E8243ECC56116D0BA69D5494D2BB08D",
+      "latest_app_hash": "05D831DC90B4D0982E677256D6790AA07550BDCB",
+      "latest_block_height": "127013",
+      "latest_block_time": "2018-12-13T23:11:22.880475452Z",
+      "catching_up": false
+    },
+    "validator_info": {
+      "address": "65FD5C664397935158E3B893B2E215D9EB4FFDD8",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "QMYY3+luTq8MFubwi6gfw8o11ao+TSR0kP8w/uQfxcc="
+      },
+      "voting_power": "200000000"
+    }
+  }
+}
